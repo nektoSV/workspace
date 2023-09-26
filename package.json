@@ -1,5 +1,5 @@
 {
-  "name": "workspace",
+  "name": "defender-game",
   "version": "1.0.0",
   "description": "Browser based game",
   "main": "index.js",
@@ -8,6 +8,13 @@
     "build": "babel src -d dist",
     "lint": "eslint ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nektoSV/workspace.git"
+  },
+  "keywords": [
+    "game"
+  ],
   "author": "nektoSV",
   "license": "ISC",
   "devDependencies": {
